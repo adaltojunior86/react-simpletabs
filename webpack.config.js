@@ -60,6 +60,6 @@ module.exports = {
     new ExtractTextPlugin(LIB_NAME + '.css', {
       allChunks: true
     }),
-    new webpack.BannerPlugin(banner, { entryOnly: true })
+    //new webpack.BannerPlugin(banner, { entryOnly: true })
   ]
 };
